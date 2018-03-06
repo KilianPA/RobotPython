@@ -19,7 +19,7 @@ bot.start()
 if __name__ == '__main__':
     bot.motorRun(M1, 0)
     bot.motorRun(M2, 0)
-	while 1:
+    while 1:
         sleep(0.1)
         bot.ultrasonicSensorRead(3,onRead)
 
